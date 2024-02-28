@@ -42,4 +42,3 @@ df = pd.read_csv('wine_features.csv')
 # Usage example:
 pipeline = RandomForestPipeline(features=['alcohol', 'flavanoids', 'total_phenols'], target='target')
 pipeline.fit_model(df)
-pipeline.save_pipeline()
